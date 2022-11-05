@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta name="referrer" content="never">
+<meta name="keywords" content="">
+<meta name="description" content="欢迎访问[久安故淵]的个人博客">
+<meta name="author" content="kveln">
+<title>Tor Browser(洋葱浏览器)-网桥(Bridges)配置 | 久安故淵</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link
+  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+  rel='stylesheet' type='text/css'>
+<link rel="alternate" type="application/rss+xml" title="Tor Browser(洋葱浏览器)-网桥(Bridges)配置 | 久安故淵 » Feed"
+  href="https://JiuAAa.github.io/atom.xml">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+<link href="https://JiuAAa.github.io/styles/main.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+  <meta property="og:description" content="Tor Browser(洋葱浏览器)-网桥(Bridges)配置" />
+  <meta property="og:url" content="https://JiuAAa.github.io/post/tor-browser-wang-qiao-bridgespei-zhi/" />
+  <meta property="og:locale" content="zh-CN" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="久安故淵" />
+  <!-- <script src="../assets/styles/scripts/tocScript.js"></script> -->
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="https://JiuAAa.github.io">久安故淵</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/">首页</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/archives">归档</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/tags">标签</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/about">关于</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          <div class="gridea-search-container">
+            <form id="gridea-search-form" style="position: relative" data-update="1667643100994"
+              action="/search/index.html">
+              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Page Header -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="https://JiuAAa.github.io">久安故淵</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/">首页</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/archives">归档</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/tags">标签</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/about">关于</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          <div class="gridea-search-container">
+            <form id="gridea-search-form" style="position: relative" data-update="1667643100994"
+              action="/search/index.html">
+              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="masthead" style="background-image: url('https://JiuAAa.github.io/media/images/home-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        
+          <!-- 没Title为其他页面Header -->
+          
+            <!-- 没Title并且有headerType为Post：文章Header -->
+            <div class="post-heading">
+              <span class="tags">
+                
+                <a href="https://JiuAAa.github.io/tag/QBb16W4eP/" class="tag">教程</a>
+                
+                <a href="https://JiuAAa.github.io/tag/iA_MQLevd/" class="tag">Tor Browser</a>
+                
+                <a href="https://JiuAAa.github.io/tag/HEUqOkpQUb/" class="tag">洋葱浏览器</a>
+                
+              </span>
+              <h1>Tor Browser(洋葱浏览器)-网桥(Bridges)配置</h1>
+              <span class="meta">
+                Posted on
+                2022-11-05，2 min read
+              </span>
+            </div>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+  <!-- Post Content -->
+  <article id="post-content-article">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto post-content-container">
+          
+          <p><img src="https://JiuAAa.github.io/post-images/1667625807975.png" alt="" loading="lazy"><br>
+<br /></p>
+<blockquote>
+<p>Tor Browser(洋葱浏览器)优点：</p>
+<ul>
+<li>配置网桥后不需要魔法(梯子)/VPN等代理工具即可连接外网(翻墙)</li>
+<li>匿名性强</li>
+<li>可以浏览暗网(Dark Web)网站</li>
+</ul>
+<p>Tor Browser(洋葱浏览器)缺点：</p>
+<ul>
+<li>加载速度慢</li>
+</ul>
+</blockquote>
+<h2 id="前言">前言</h2>
+<p>网桥的配置适用于：</p>
+<ul>
+<li>无稳定或长效的魔法(梯子)/VPN等代理工具的人群</li>
+</ul>
+<h3 id="准备工作">准备工作</h3>
+<ol>
+<li>Tor Browser(洋葱浏览器)       <a href="https://www.torproject.org/">&gt;&gt;&gt;官方网址&lt;&lt;&lt;</a></li>
+<li>当前能够有效使用的魔法(梯子)/VPN等代理工具</li>
+<li><a href="#%E6%96%B9%E6%B3%95%E4%B8%80">普通浏览器(推荐使用Microsoft Edge/Google Chrome)</a> 或 <a href="#%E6%96%B9%E6%B3%95%E4%BA%8C">Telegram(电报)</a></li>
+</ol>
+<h3 id="获取网桥">获取网桥</h3>
+<h4 id="方法一">方法一</h4>
+<ol>
+<li>
+<p>打开官方获取网桥的网址       <a href="https://bridges.torproject.org/bridges?transport=obfs4">&gt;&gt;&gt;点此跳转&lt;&lt;&lt;</a></p>
+</li>
+<li>
+<p>填入验证码<br>
+<img src="https://JiuAAa.github.io/post-images/1667629393537.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>点击<code>Copy All</code>复制网桥<br>
+<img src="https://JiuAAa.github.io/post-images/1667629460203.png" alt="" loading="lazy"></p>
+</li>
+</ol>
+<h4 id="方法二">方法二</h4>
+<ol>
+<li>在Telegram(电报)中搜索<a href="https://t.me/GetBridgesBot">@GetBridgesBot</a></li>
+<li>发起聊天后输入<code>/bridges</code>并发送</li>
+<li>复制消息内除了<code>Your bridges:</code>的所有内容<br>
+<img src="https://JiuAAa.github.io/post-images/1667629778052.png" alt="" loading="lazy"></li>
+</ol>
+<h3 id="配置网桥">配置网桥</h3>
+<ol>
+<li>
+<p>打开Tor Browser(洋葱洋葱浏览器)</p>
+</li>
+<li>
+<p>勾选<code>Always connect automatically</code>后点击<code>Configure Connection...</code><br>
+<img src="https://JiuAAa.github.io/post-images/1667630031872.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>选择<code>Connection</code>内<code>Bridges</code>里<code>Add a New Bridge</code>的<code>Add a Bridge Manually...</code><br>
+<img src="https://JiuAAa.github.io/post-images/1667630237307.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>粘贴复制的网桥，并点击<code>OK</code><br>
+<img src="https://JiuAAa.github.io/post-images/1667630714763.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>回到<code>Connect to Tor</code>标签页(初始标签页)，点击<code>Connect</code>进行连接<br>
+<img src="https://JiuAAa.github.io/post-images/1667630798657.png" alt="" loading="lazy"></p>
+</li>
+</ol>
+<h3 id="配置成功">配置成功</h3>
+<figure data-type="image" tabindex="1"><img src="https://JiuAAa.github.io/post-images/1667630881120.png" alt="" loading="lazy"></figure>
+
+          <div class="toc-container"><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a>
+<ul>
+<li><a href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">准备工作</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96%E7%BD%91%E6%A1%A5">获取网桥</a>
+<ul>
+<li><a href="#%E6%96%B9%E6%B3%95%E4%B8%80">方法一</a></li>
+<li><a href="#%E6%96%B9%E6%B3%95%E4%BA%8C">方法二</a></li>
+</ul>
+</li>
+<li><a href="#%E9%85%8D%E7%BD%AE%E7%BD%91%E6%A1%A5">配置网桥</a></li>
+<li><a href="#%E9%85%8D%E7%BD%AE%E6%88%90%E5%8A%9F">配置成功</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+          
+          <hr />
+          <p class="next-post">下一篇：
+            <a href="https://JiuAAa.github.io/post/excel-cao-zuo-xi-tong-dang-qian-pei-zhi-bu-neng-yun-xing-ci-cheng-xu/">
+              <span class="post-title">
+                Excel-操作系统当前配置不能运行此程序&rarr;
+              </span>
+            </a>
+          </p>
+          
+          <div class="comment" style="text-align: center;">
+            
+
+            
+            
+          </div>
+        </div>
+      </div>
+  </article>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/JiuAAaa" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+            <li class="list-inline-item">
+              <a href="https://twitter.com/JiuAuiJ/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <!-- <li class="list-inline-item">
+              <a href="https://JiuAAa.github.io/atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li> -->
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>久安故淵</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://JiuAAa.github.io/media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://JiuAAa.github.io/media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  
+  <div id="landlord-parent">
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+    </div>
+</div>
+
+<script type="text/javascript">
+    if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
+        //移动端
+        console.log("------ 移动端");
+    } else {
+        console.log("------ PC端 " + navigator.userAgent);
+
+        addScript("https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/live2d.js", () => {
+            // 加载完成后再loadlive2d
+            loadlive2d("live2d", "https://JiuAAa.github.io/media/live2d/assets/tororo.model.json");
+        });
+
+        var home_Path = "https://JiuAAa.github.io/";
+        addScript("https://JiuAAa.github.io/media/live2d/js/message.js", () => { });
+    }
+
+    // 插入js文件，完成后callback
+    function addScript(jsfile, callback) {
+        var landlord_parent = document.getElementById("landlord-parent");
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = jsfile;
+        landlord_parent.appendChild(script);
+        script.onload = script.onreadystatechange = function () {
+            if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete") {
+                script.onload = script.onreadystatechange = null;
+                if (callback && typeof callback == "function") {
+                    callback(); //window[callback]();如果传递字符串过来 调用window['函数名']() 调用方法
+                }
+            }
+        };
+    }
+</script>
+  
+  <script src="https://JiuAAa.github.io/media/scripts/tocScript.js"></script>
+</body>
+
+</html>

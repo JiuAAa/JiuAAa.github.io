@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://JiuAAa.github.io</id>
+    <title>久安故淵</title>
+    <updated>2022-11-05T10:12:39.751Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://JiuAAa.github.io"/>
+    <link rel="self" href="https://JiuAAa.github.io/atom.xml"/>
+    <subtitle>&lt;h6&gt;偷得浮生半日闲&lt;/h6&gt;</subtitle>
+    <logo>https://JiuAAa.github.io/images/avatar.png</logo>
+    <icon>https://JiuAAa.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 久安故淵</rights>
+    <entry>
+        <title type="html"><![CDATA[Tor Browser(洋葱浏览器)-网桥(Bridges)配置]]></title>
+        <id>https://JiuAAa.github.io/post/tor-browser-wang-qiao-bridgespei-zhi/</id>
+        <link href="https://JiuAAa.github.io/post/tor-browser-wang-qiao-bridgespei-zhi/">
+        </link>
+        <updated>2022-11-05T05:17:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://JiuAAa.github.io/post-images/1667625807975.png" alt="" loading="lazy"><br>
+<br /></p>
+<blockquote>
+<p>Tor Browser(洋葱浏览器)优点：</p>
+<ul>
+<li>配置网桥后不需要魔法(梯子)/VPN等代理工具即可连接外网(翻墙)</li>
+<li>匿名性强</li>
+<li>可以浏览暗网(Dark Web)网站</li>
+</ul>
+<p>Tor Browser(洋葱浏览器)缺点：</p>
+<ul>
+<li>加载速度慢</li>
+</ul>
+</blockquote>
+<h2 id="前言">前言</h2>
+<p>网桥的配置适用于：</p>
+<ul>
+<li>无稳定或长效的魔法(梯子)/VPN等代理工具的人群</li>
+</ul>
+<h3 id="准备工作">准备工作</h3>
+<ol>
+<li>Tor Browser(洋葱浏览器)       <a href="https://www.torproject.org/">&gt;&gt;&gt;官方网址&lt;&lt;&lt;</a></li>
+<li>当前能够有效使用的魔法(梯子)/VPN等代理工具</li>
+<li><a href="#%E6%96%B9%E6%B3%95%E4%B8%80">普通浏览器(推荐使用Microsoft Edge/Google Chrome)</a> 或 <a href="#%E6%96%B9%E6%B3%95%E4%BA%8C">Telegram(电报)</a></li>
+</ol>
+<h3 id="获取网桥">获取网桥</h3>
+<h4 id="方法一">方法一</h4>
+<ol>
+<li>
+<p>打开官方获取网桥的网址       <a href="https://bridges.torproject.org/bridges?transport=obfs4">&gt;&gt;&gt;点此跳转&lt;&lt;&lt;</a></p>
+</li>
+<li>
+<p>填入验证码<br>
+<img src="https://JiuAAa.github.io/post-images/1667629393537.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>点击<code>Copy All</code>复制网桥<br>
+<img src="https://JiuAAa.github.io/post-images/1667629460203.png" alt="" loading="lazy"></p>
+</li>
+</ol>
+<h4 id="方法二">方法二</h4>
+<ol>
+<li>在Telegram(电报)中搜索<a href="https://t.me/GetBridgesBot">@GetBridgesBot</a></li>
+<li>发起聊天后输入<code>/bridges</code>并发送</li>
+<li>复制消息内除了<code>Your bridges:</code>的所有内容<br>
+<img src="https://JiuAAa.github.io/post-images/1667629778052.png" alt="" loading="lazy"></li>
+</ol>
+<h3 id="配置网桥">配置网桥</h3>
+<ol>
+<li>
+<p>打开Tor Browser(洋葱洋葱浏览器)</p>
+</li>
+<li>
+<p>勾选<code>Always connect automatically</code>后点击<code>Configure Connection...</code><br>
+<img src="https://JiuAAa.github.io/post-images/1667630031872.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>选择<code>Connection</code>内<code>Bridges</code>里<code>Add a New Bridge</code>的<code>Add a Bridge Manually...</code><br>
+<img src="https://JiuAAa.github.io/post-images/1667630237307.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>粘贴复制的网桥，并点击<code>OK</code><br>
+<img src="https://JiuAAa.github.io/post-images/1667630714763.png" alt="" loading="lazy"><br/><br/></p>
+</li>
+<li>
+<p>回到<code>Connect to Tor</code>标签页(初始标签页)，点击<code>Connect</code>进行连接<br>
+<img src="https://JiuAAa.github.io/post-images/1667630798657.png" alt="" loading="lazy"></p>
+</li>
+</ol>
+<h3 id="配置成功">配置成功</h3>
+<figure data-type="image" tabindex="1"><img src="https://JiuAAa.github.io/post-images/1667630881120.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Excel-操作系统当前配置不能运行此程序]]></title>
+        <id>https://JiuAAa.github.io/post/excel-cao-zuo-xi-tong-dang-qian-pei-zhi-bu-neng-yun-xing-ci-cheng-xu/</id>
+        <link href="https://JiuAAa.github.io/post/excel-cao-zuo-xi-tong-dang-qian-pei-zhi-bu-neng-yun-xing-ci-cheng-xu/">
+        </link>
+        <updated>2022-11-04T12:43:55.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://JiuAAa.github.io/post-images/1667576203504.png" alt="" loading="lazy"></figure>
+<br/>
+<blockquote>
+<ul>
+<li>操作系统当前配置不能运行此程序</li>
+<li>以安全模式启动失败</li>
+<li>修复、重装仍然存在问题</li>
+</ul>
+</blockquote>
+<br/>
+<h2 id="解决办法">解决办法</h2>
+<p><code>win</code> + <code>E</code>打开资源管理器，在搜索栏搜索 EXCEL 词典（xllex.dll）</p>
+<br/>
+<h3 id="搜索结果">搜索结果</h3>
+<ol>
+<li><a href="#%E8%A7%A3%E5%86%B3%E4%B8%80">搜索出来了</a></li>
+<li><a href="#%E8%A7%A3%E5%86%B3%E4%BA%8C">没搜索出来</a></li>
+</ol>
+<br/>
+<figure data-type="image" tabindex="2"><img src="https://JiuAAa.github.io/post-images/1667570252267.png" alt="" loading="lazy"></figure>
+<br/>
+<h4 id="解决一">解决一</h4>
+<p>对着它右键，打开它的属性，查看它的位置<br>
+<img src="https://JiuAAa.github.io/post-images/1667570446102.png" alt="" loading="lazy"></p>
+<br/>
+<p>找到它，把它粘贴到 <code>C:\Windows\System32</code> 和 <code>C:\Windows\SysWOW64</code> 这俩目录里，不用做注册即可解决</p>
+<br/>
+<h4 id="解决二">解决二</h4>
+<p>下载到 <code>C:\Windows\System32</code> 和 <code>C:\Windows\SysWOW64</code> 这俩目录里呗</p>
+<a href = "https://github.com/JiuAAa/Error/files/9798723/XLLEX.zip">
+>>>点此下载xllex.dll<<<
+</a>
+<p><br/><br/></p>
+<h2 id="成功解决">成功解决</h2>
+<figure data-type="image" tabindex="3"><img src="https://JiuAAa.github.io/post-images/1667570502469.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+</feed>

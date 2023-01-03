@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Exhentai进入方法</title>
+      <link href="/posts/Exhentai%E8%BF%9B%E5%85%A5%E6%96%B9%E6%B3%95/"/>
+      <url>/posts/Exhentai%E8%BF%9B%E5%85%A5%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Expanda.png" alt="Expanda"></p><h1 id="Exhentai-E-hentai里站-进入方法"><a href="#Exhentai-E-hentai里站-进入方法" class="headerlink" title="Exhentai(E-hentai里站)-进入方法"></a>Exhentai(E-hentai里站)-进入方法</h1><blockquote><p>白屏原因：</p><ul><li>账号未获得权限</li><li>IP不合格</li></ul></blockquote><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Flowchart.png" alt="Flowchart"></p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><h3 id="Ⅰ-自己注册账号"><a href="#Ⅰ-自己注册账号" class="headerlink" title="Ⅰ 自己注册账号"></a>Ⅰ 自己注册账号</h3><h4 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h4><ul><li>一个可用的较为纯净的欧美ip节点</li><li>一个国外邮箱账号，如：<a href="https://mail.google.com/">Gmail</a>、<a href="https://www.outlook.com/">Outlook</a>等</li><li>已对网站进行<a href="#Cookiee">Cookie清除</a></li></ul><h4 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h4><ol><li>首先访问<a href="https://e-hentai.org/">E-hentai</a>，并点击页面上方的<code>My Home</code>，跳转到登录页面</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Register1.png" alt="Register1"></p><ol start="2"><li>点击<code>Register</code>注册新账号</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Register2.png" alt="Register2"></p><ol start="3"><li>勾选同意条款后点击<code>Register</code>开始注册</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Register3.png" alt="Register3"></p><ol start="4"><li>填写相关信息后提交申请</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Register4.png" alt="Register4"></p><ol start="5"><li>登录</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/Register5.png" alt="Register5"></p><ol start="6"><li><p>等待审核</p><ul><li>新用户需要后台审核通过才能获得进入里站的权限</li><li>等待时只需每日进行<a href="#exhentaii">里站权限测试</a>，直至审核通过即可</li></ul></li><li><p>本次演示于<code>2022.11.16-23:59</code>完成注册，没有进行权限测试，于<code>2023.1.3-11:39</code>记起此事后发现已获得权限</p></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/RegisterEnd.png" alt="RegisterEnd"></p><h3 id="Ⅱ-借用他人有里站权限的账号-Cookie"><a href="#Ⅱ-借用他人有里站权限的账号-Cookie" class="headerlink" title="Ⅱ 借用他人有里站权限的账号(Cookie)"></a>Ⅱ 借用他人有里站权限的账号(Cookie)</h3><h4 id="演示-1"><a href="#演示-1" class="headerlink" title="演示"></a>演示</h4><ol><li>首先访问<a href="https://exhentai.org/">Exhentai</a>，并打开浏览器的开发人员工具，快捷键为<code>F12</code>，并在工具选项卡中找到<code>Application</code>或者叫<code>应用程序</code></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/ExhentaiF12.png" alt="ExhentaiF12"></p><ol start="2"><li>删除Cookie <code>yay</code>，并加入借到的Cookie</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/SetCookie.png" alt="SetCookie"></p><ol start="3"><li>刷新页面即可</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/FlushPage.png" alt="FlushPage"></p><h4 id="此处分享一个账号Cookie"><a href="#此处分享一个账号Cookie" class="headerlink" title="此处分享一个账号Cookie"></a>此处分享一个账号Cookie</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ipb_member_id = 4520928</span><br><span class="line">ipb_pass_hash = 925cc4de040051f7024333fb45f63a2a</span><br><span class="line">igneous = 5c521e916</span><br></pre></td></tr></table></figure><h3 id="Ⅲ-氪金"><a href="#Ⅲ-氪金" class="headerlink" title="Ⅲ 氪金"></a>Ⅲ 氪金</h3><ul><li>算了吧老弟，这博客里文章都是为了以后要再用到，写给我自己看的</li><li>氪金是不可能氪金的，真想氪另外找教程吧</li><li>友情提醒，小心被骗</li></ul><h2 id="关于清除Cookie和权限测试"><a href="#关于清除Cookie和权限测试" class="headerlink" title="关于清除Cookie和权限测试"></a>关于清除Cookie和权限测试</h2><p><span id="Cookiee"></span></p><h3 id="如何清除Cookie"><a href="#如何清除Cookie" class="headerlink" title="如何清除Cookie"></a>如何清除Cookie</h3><ol><li>首先访问<a href="https://exhentai.org/">Exhentai</a>，并点开网址旁的小锁，选择<code>Cookie</code></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/DeleteCookie1.png" alt="DeleteCookie1"></p><ol start="2"><li>删除所有的Cookie</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/DeleteCookie2.png" alt="DeleteCookie2"></p><p><span id="exhentaii"></span></p><h3 id="如何测试权限"><a href="#如何测试权限" class="headerlink" title="如何测试权限"></a>如何测试权限</h3><ol><li><p>首先访问<a href="https://exhentai.org/">Exhentai</a></p></li><li><p><a href="#Cookiee">清除Cookie</a></p></li><li><p>去<a href="https://forums.e-hentai.org/">论坛</a>查看是否登录，若未登录点击页面上方的<code>Log In</code>登录即可 (在<a href="https://e-hentai.org/">E-hentai</a>查看也是可以的)</p></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/ForumsLogIn.png" alt="ForumsLogIn"></p><ol start="4"><li>确认登录后，再次访问<a href="https://exhentai.org/">Exhentai</a><ul><li>仍然白屏，则表示账号尚未获得里站权限，明天再试</li><li>刷新出页面，则表示入站成功</li></ul></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/Exhentai/End.png" alt="End"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Exhentai </tag>
+            
+            <tag> Tutorial </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>洋葱浏览器-网桥配置</title>
+      <link href="/posts/%E6%B4%8B%E8%91%B1%E6%B5%8F%E8%A7%88%E5%99%A8-%E7%BD%91%E6%A1%A5%E9%85%8D%E7%BD%AE/"/>
+      <url>/posts/%E6%B4%8B%E8%91%B1%E6%B5%8F%E8%A7%88%E5%99%A8-%E7%BD%91%E6%A1%A5%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/TorBrowser.png" alt="TorBrowser"></p><h1 id="Tor-Browser-Bridges"><a href="#Tor-Browser-Bridges" class="headerlink" title="Tor Browser-Bridges"></a>Tor Browser-Bridges</h1><blockquote><p>网桥配置</p></blockquote><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li><a href="https://www.torproject.org/">Tor Browser</a></li><li>代理(翻墙)工具</li><li>二者取一<ol><li>非国内浏览器，如：<a href="https://www.microsoft.com/edge/home?form=MA13FJ">Edge</a> 或 <a href="https://www.google.com/chrome/">Chrome</a></li><li><a href="https://telegram.org/">Telegram</a></li></ol></li></ol><h2 id="获取网桥"><a href="#获取网桥" class="headerlink" title="获取网桥"></a>获取网桥</h2><h3 id="Ⅰ"><a href="#Ⅰ" class="headerlink" title="Ⅰ"></a>Ⅰ</h3><ol><li>打开<a href="https://bridges.torproject.org/bridges?transport=obfs4">官方网桥</a>，然后填入验证码</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/Code.png" alt="Code"></p><ol start="2"><li>点击<code>Copy All</code>复制网桥</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/Copy1.png" alt="Copy1"></p><h3 id="Ⅱ"><a href="#Ⅱ" class="headerlink" title="Ⅱ"></a>Ⅱ</h3><ol><li>在Telegram(电报)中私聊机器人<a href="https://t.me/GetBridgesBot">@GetBridgesBot</a></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/TorBridgesBot.png" alt="TorBridgesBot"></p><ol><li>发送<code>/bridges</code>，并复制收到的消息内除了<code>Your bridges:</code>的所有内容</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/Copy2.png" alt="Copy2"></p><h2 id="配置网桥"><a href="#配置网桥" class="headerlink" title="配置网桥"></a>配置网桥</h2><ol><li>打开Tor Browser(洋葱浏览器)，勾选<code>Always connect automatically</code>后点击<code>Configure Connection...</code></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/Open.png" alt="Open"></p><ol start="2"><li>选择<code>Connection</code>内<code>Bridges</code>里<code>Add a New Bridge</code>的<code>Add a Bridge Manually...</code></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/Bridges.png" alt="Bridges"></p><ol start="3"><li>粘贴复制的网桥，并点击<code>OK</code></li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/OK.png" alt="OK"></p><ol start="4"><li>回到<code>Connect to Tor</code>标签页(初始标签页)，点击<code>Connect</code>进行连接</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/Connect.png" alt="Connect"></p><h2 id="配置成功"><a href="#配置成功" class="headerlink" title="配置成功"></a>配置成功</h2><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TorBrowserBridges/End.png" alt="End"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Tutorial </tag>
+            
+            <tag> Tor Browser </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel操作系统当前的配置不能运行此应用程序</title>
+      <link href="/posts/Excel%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%BD%93%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8D%E8%83%BD%E8%BF%90%E8%A1%8C%E6%AD%A4%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/"/>
+      <url>/posts/Excel%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%BD%93%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8D%E8%83%BD%E8%BF%90%E8%A1%8C%E6%AD%A4%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://jiuaaa.github.io/BlogImageBed/Post/ExcelError/Excel.png" alt="Excel"></p><h1 id="Excel-Error"><a href="#Excel-Error" class="headerlink" title="Excel Error"></a>Excel Error</h1><blockquote><ul><li>操作系统当前的配置不能运行此应用程序</li><li>以安全模式启动Excel失败。是否启动“修复”？</li><li>修复、重装仍然存在问题</li></ul></blockquote><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p><code>win</code>+<code>E</code>打开资源管理器，在搜索栏搜索<code>xllex.dll</code></p><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/ExcelError/search.png" alt="search"></p><h3 id="无搜索结果"><a href="#无搜索结果" class="headerlink" title="无搜索结果"></a>无搜索结果</h3><ol><li><p>将文件下载至<code>C:\Windows\System32</code>和<code>C:\Windows\SysWOW64</code>这俩目录里，不用做注册即可解决</p><p><a href="https://github.com/JiuAAa/JiuAAa.github.io/releases/download/ExcelError/XLLEX.DLL">&gt;&gt;&gt;点此下载&lt;&lt;&lt;</a></p></li></ol><h3 id="有搜索结果"><a href="#有搜索结果" class="headerlink" title="有搜索结果"></a>有搜索结果</h3><ol><li>搜索出来后右键打开<code>属性</code>，查看它的位置</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/ExcelError/Directory.png" alt="Directory"></p><ol start="2"><li>将它粘贴到<code>C:\Windows\System32</code>和<code>C:\Windows\SysWOW64</code>这俩目录里，不用做注册即可解决</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/ExcelError/End.png" alt="End"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Error </tag>
+            
+            <tag> Excel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Tim修改个人文件夹位置后被重置</title>
+      <link href="/posts/Tim%E4%BF%AE%E6%94%B9%E4%B8%AA%E4%BA%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E4%BD%8D%E7%BD%AE%E5%90%8E%E8%A2%AB%E9%87%8D%E7%BD%AE/"/>
+      <url>/posts/Tim%E4%BF%AE%E6%94%B9%E4%B8%AA%E4%BA%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E4%BD%8D%E7%BD%AE%E5%90%8E%E8%A2%AB%E9%87%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TimError/Tencent.png" alt="Tencent"></p><h1 id="Tim-Error"><a href="#Tim-Error" class="headerlink" title="Tim Error"></a>Tim Error</h1><blockquote><p>Tim修改个人文件夹位置后被重置</p></blockquote><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在修改了个人文件夹位置后，便会被要求重启</p><p>但是重启后会发现设置被改回去了</p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><ol><li>打开个人文件夹</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TimError/TimFolder.png" alt="TimFolder"></p><ol start="2"><li>退出Tim</li><li>将整个文件夹(Tencent Files)移动到将要保存的位置。可能需要自行往上级目录退，直到找到文件夹为止</li><li>打开<code>C:\Users\Public\Documents</code>，或者叫<code>C:\用户\公用\公用文档</code></li><li>在这个目录下创建<code>Tencent</code>文件夹，并在里面创建<code>QQ</code>文件夹</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TimError/Directory.png" alt="Directory"></p><ol start="6"><li>在此(QQ)文件夹中新建一个文本文档(txt)，并打开，将以下代码拷贝到该文件中</li></ol><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[UserDataImportSet]</span></span><br><span class="line"></span><br><span class="line"><span class="attr">NeedImport</span>=<span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="attr">OldVersion</span>=</span><br><span class="line"></span><br><span class="line"><span class="attr">OldVerDataPathType</span>=</span><br><span class="line"></span><br><span class="line"><span class="attr">OldVerDataPath</span>=</span><br><span class="line"></span><br><span class="line"><span class="attr">OldQQInstallPath</span>=C:\Program Files (x86)\Tencent\QQ</span><br><span class="line"></span><br><span class="line"><span class="section">[UserDataSet]</span></span><br><span class="line"></span><br><span class="line"><span class="attr">UserDataSavePathType</span>=<span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">UserDataSavePath</span>=想要放的位置</span><br><span class="line"></span><br><span class="line">NewVersion=</span><br></pre></td></tr></table></figure><ol start="7"><li>替换<code>想要放的位置</code>，注意：路径中斜杠使用<code>\</code></li><li>将文件另存为<code>UserDataInfo.ini</code>到当前目录，最后将<code>.txt</code>文件删除即可</li></ol><p><img src="https://jiuaaa.github.io/BlogImageBed/Post/TimError/End.png" alt="End"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Error </tag>
+            
+            <tag> Tim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
